@@ -2,7 +2,7 @@ body {
 	overflow-x: hidden;
     font-family: 'Roboto Slab', serif;
 	font-weight: 450;
-	background-image: url(../images/bcwall.jpg);
+	background-image: url(../images/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -299,7 +299,7 @@ galeria {
 
 header {
     text-align: center;
-    color: black;
+    color: #fff;
     background-attachment: scroll;
     background-position: center center;
     background-repeat: none;
@@ -353,7 +353,7 @@ header .intro-text .intro-heading {
 
 section {
     padding: 200px 0px;
-	margin-top: 50px;
+	margin-top: 25px;
 }
 
 section h2.section-heading {
@@ -413,7 +413,7 @@ section h4.section-heading {
 }
 @media(min-width:768px) {
     section {
-        padding: 300px 0;
+        padding: 150px 0;
 		padding-bottom: 15px;
     }
 }

@@ -7,9 +7,9 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-	  -o-text-size-adjust: 100%;  
+  -webkit-text-size-adjust: 90%;
+      -ms-text-size-adjust: 90%;
+	  -o-text-size-adjust: 90%;  
 }
 body {
   margin: 0;
@@ -1622,10 +1622,7 @@ pre code {
 }
 @media (min-width: 768px) {
   .container, .container_contact, .container_gall {
-	padding-right: 40px;
-  padding-left: 40px;
-  margin-left: auto;
-  margin-right:auto;
+    width: 820px;
   }
   .nav > li > a{
     padding-left: 7px;
@@ -1634,10 +1631,7 @@ pre code {
 }
 @media (min-width: 992px) {
   .container, .container_contact, .container_gall {
-    padding-right: 80px;
-  padding-left: 80px;
-  margin-left: auto;
-  margin-right:auto;
+    width: 970px;
   }
 }
 @media (min-width: 1200px) {
@@ -4282,7 +4276,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar > .container_contact  .navbar-brand,
   .navbar > .container_gall  .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
-    margin-left: 0px;
+    margin-left: -15px;
   }
 }
 .navbar-toggle {
