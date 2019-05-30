@@ -269,7 +269,7 @@ fieldset[disabled] .send.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: black;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
