@@ -1622,7 +1622,9 @@ pre code {
 }
 @media (min-width: 768px) {
   .container, .container_contact, .container_gall {
-    width: 970px;
+    width: 970px;  
+	padding-right: 100px;
+    padding-left: 100px;
 
   }
   .nav > li > a{
