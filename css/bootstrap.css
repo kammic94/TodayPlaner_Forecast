@@ -1622,10 +1622,7 @@ pre code {
 }
 @media (min-width: 768px) {
   .container, .container_contact, .container_gall {
-    width: 970px;  
-	padding-right: 100px;
-    padding-left: 100px;
-
+    width: 100%;  
   }
   .nav > li > a{
     padding-left: 7px;
@@ -1634,12 +1631,12 @@ pre code {
 }
 @media (min-width: 992px) {
   .container, .container_contact, .container_gall {
-    width: 970px;
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
   .container, .container_contact, .container_gall {
-    width: 1170px;
+    width: 100%;
   }
 }
 
