@@ -418,7 +418,13 @@ section h4.section-heading {
 		padding-bottom: 15px;
     }
 }
-
+@media (min-width: 992px) {
+   section {
+        padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 15px;
+    }
+}
 .service-heading {
     margin: 15px 0;
     text-transform: none;
