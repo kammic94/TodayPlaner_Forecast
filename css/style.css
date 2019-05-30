@@ -413,7 +413,8 @@ section h4.section-heading {
 }
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding-left: 0px;
+		padding-right: 0px;
 		padding-bottom: 15px;
     }
 }
