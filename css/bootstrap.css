@@ -1622,7 +1622,10 @@ pre code {
 }
 @media (min-width: 768px) {
   .container, .container_contact, .container_gall {
-	width: 100%;	
+	padding-right: 40px;
+  padding-left: 40px;
+  margin-left: auto;
+  margin-right:auto;
   }
   .nav > li > a{
     padding-left: 7px;
@@ -1631,7 +1634,10 @@ pre code {
 }
 @media (min-width: 992px) {
   .container, .container_contact, .container_gall {
-    width: 100%;
+    padding-right: 80px;
+  padding-left: 80px;
+  margin-left: auto;
+  margin-right:auto;
   }
 }
 @media (min-width: 1200px) {
