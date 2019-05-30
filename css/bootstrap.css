@@ -7,9 +7,9 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
-  -webkit-text-size-adjust: 90%;
-      -ms-text-size-adjust: 90%;
-	  -o-text-size-adjust: 90%;  
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+	  -o-text-size-adjust: 100%;  
 }
 body {
   margin: 0;
@@ -1624,10 +1624,10 @@ pre code {
   .container, .container_contact, .container_gall {
   overflow: auto;
   background-color: white;
-  padding-right: auto;
-  padding-left: auto;
-  margin-left: auto;
-  margin-right:auto;
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
   box-shadow: 0 0 3px 3px white;
   }
   .nav > li > a{
@@ -1637,7 +1637,13 @@ pre code {
 }
 @media (min-width: 992px) {
   .container, .container_contact, .container_gall {
-    width: 100%;
+  overflow: auto;
+  background-color: white;
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+  box-shadow: 0 0 3px 3px white;
   }
 }
 @media (min-width: 1200px) {
