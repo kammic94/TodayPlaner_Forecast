@@ -1637,7 +1637,7 @@ pre code {
 }
 @media (min-width: 992px) {
   .container, .container_contact, .container_gall {
-    width: 970px;
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
