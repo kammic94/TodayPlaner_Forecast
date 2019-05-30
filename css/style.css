@@ -414,15 +414,15 @@ section h4.section-heading {
 }
 @media(min-width:768px) {
     section {
-        padding-left: 0px;
-		padding-right: 0px;
+ margin-left: auto;
+  margin-right:auto;
 		padding-bottom: 15px;
     }
 }
 @media (min-width: 992px) {
    section {
-        padding-left: 0px;
-		padding-right: 0px;
+ margin-left: auto;
+  margin-right:auto;
 		padding-bottom: 15px;
     }
 }
@@ -1042,7 +1042,7 @@ div.img img {
     transform: scale(1,1);
 }
 
-.arrow:hover{
+.ar:hover{
     transition: all .2s ease-in-out;
     transform: scale(1.1,1.1);
 }
