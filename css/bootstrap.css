@@ -4282,7 +4282,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar > .container_contact  .navbar-brand,
   .navbar > .container_gall  .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
-    margin-left: -15px;
+    margin-left: 0px;
   }
 }
 .navbar-toggle {
