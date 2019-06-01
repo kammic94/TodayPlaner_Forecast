@@ -2,7 +2,7 @@ body {
 	overflow-x: hidden;
     font-family: 'Roboto Slab', serif;
 	font-weight: 450;
-	background-image: url(../images/bcwall.jpg);
+	background-image: url(../images/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -414,15 +414,15 @@ section h4.section-heading {
 }
 @media(min-width:768px) {
     section {
- margin-left: auto;
-  margin-right:auto;
+        padding-left: 0px;
+		padding-right: 0px;
 		padding-bottom: 15px;
     }
 }
 @media (min-width: 992px) {
    section {
- margin-left: auto;
-  margin-right:auto;
+        padding-left: 0px;
+		padding-right: 0px;
 		padding-bottom: 15px;
     }
 }
@@ -1042,7 +1042,7 @@ div.img img {
     transform: scale(1,1);
 }
 
-.ar:hover{
+.arrow:hover{
     transition: all .2s ease-in-out;
     transform: scale(1.1,1.1);
 }

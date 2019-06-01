@@ -10,10 +10,12 @@ html {
   -webkit-text-size-adjust: 90%;
       -ms-text-size-adjust: 90%;
 	  -o-text-size-adjust: 90%;  
+	overflow-x: hidden;
 }
 body {
   margin: 0;
   zoom: 90%;
+  overflow-x: hidden;
 }
 
 article,
@@ -36,7 +38,6 @@ progress,
 video {
   display: inline-block;
   vertical-align: baseline;
-
 }
 audio:not([controls]) {
   display: none;
@@ -1580,10 +1581,10 @@ pre code {
 .container {
   overflow: auto;
   background-color: white;
-  padding-right: 80px;
-  padding-left: 80px;
+  padding-right: 160px;
+  padding-left: 160px;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
   box-shadow: 0 0 3px 3px white;
   
 
@@ -1623,7 +1624,8 @@ pre code {
 }
 @media (min-width: 768px) {
   .container, .container_contact, .container_gall {
-    width: 100%;  
+    width: 970px;
+
   }
   .nav > li > a{
     padding-left: 7px;
@@ -1632,12 +1634,12 @@ pre code {
 }
 @media (min-width: 992px) {
   .container, .container_contact, .container_gall {
-    width: 100%;
+    width: 970px;
   }
 }
 @media (min-width: 1200px) {
   .container, .container_contact, .container_gall {
-    width: 100%;
+    width: 1170px;
   }
 }
 
@@ -2005,7 +2007,7 @@ pre code {
 }
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: center;
+    float: left;
   }
   .col-md-12 {
     width: 100%;
