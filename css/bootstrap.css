@@ -9,8 +9,7 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 90%;
       -ms-text-size-adjust: 90%;
-	  -o-text-size-adjust: 90%;
-  overflow-x: hidden;	  
+	  -o-text-size-adjust: 90%;  
 }
 body {
   margin: 0;
