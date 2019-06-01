@@ -10,14 +10,16 @@ html {
   -webkit-text-size-adjust: 90%;
       -ms-text-size-adjust: 90%;
 	  -o-text-size-adjust: 90%;  
-	overflow-x: hidden;
 }
 body {
   margin: 0;
   zoom: 90%;
-  overflow-x: hidden;
 }
-
+@media (min-width: 768px) {
+  html body{
+    overflow-x: hidden;
+  }
+}
 article,
 aside,
 details,
